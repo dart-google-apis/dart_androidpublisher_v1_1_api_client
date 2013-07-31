@@ -1,9 +1,11 @@
-part of androidpublisher_v1_1_api_client;
+part of androidpublisher_v1_1_api;
 
-class InapppurchasesResource_ extends Resource {
+class InapppurchasesResource_ {
 
-  InapppurchasesResource_(Client client) : super(client) {
-  }
+  final Client _client;
+
+  InapppurchasesResource_(Client client) :
+      _client = client;
 
   /**
    * Checks the purchase and consumption status of an inapp item.
@@ -47,10 +49,12 @@ class InapppurchasesResource_ extends Resource {
   }
 }
 
-class PurchasesResource_ extends Resource {
+class PurchasesResource_ {
 
-  PurchasesResource_(Client client) : super(client) {
-  }
+  final Client _client;
+
+  PurchasesResource_(Client client) :
+      _client = client;
 
   /**
    * Cancels a user's subscription purchase. The subscription remains valid until its expiration time.

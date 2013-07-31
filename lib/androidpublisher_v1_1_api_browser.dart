@@ -1,14 +1,14 @@
-library androidpublisher_v1_1_api_browser;
+library androidpublisher_v1_1_api.browser;
 
-import "androidpublisher_v1_1_api_client.dart";
-export "androidpublisher_v1_1_api_client.dart";
-
-import "dart:core" as core;
-import "dart:html" as html;
-import "dart:async" as async;
-import "dart:json" as JSON;
-import "package:js/js.dart" as js;
 import "package:google_oauth2_client/google_oauth2_browser.dart" as oauth;
 
-part "src/browser/browser_client.dart";
-part "src/browser/androidpublisher.dart";
+import 'package:google_androidpublisher_v1_1_api/src/cloud_api_browser.dart';
+import "package:google_androidpublisher_v1_1_api/androidpublisher_v1_1_api_client.dart";
+
+/** Lets Android application developers access their Google Play accounts. */
+class Androidpublisher extends Client with BrowserClient {
+
+  final oauth.OAuth2 auth;
+
+  Androidpublisher([oauth.OAuth2 this.auth]);
+}
