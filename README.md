@@ -14,7 +14,7 @@ Adding dependency to pubspec.yaml
 
 ```
   dependencies:
-    google_androidpublisher_v1_1_api: '>=0.4.3'
+    google_androidpublisher_v1_1_api: '>=0.4.4'
 ```
 
 For web applications:
@@ -29,13 +29,13 @@ For console application:
   import "package:google_androidpublisher_v1_1_api/androidpublisher_v1_1_api_console.dart" as androidpublisherclient;
 ```
 
-Working with out authentication the following constructor can be called:
+Working without authentication the following constructor can be called:
 
 ```
   var androidpublisher = new androidpublisherclient.Androidpublisher();
 ```
 
-Working with authentication then create a new `GoogleOAuth2` object and pass it to the constructor:
+To use authentication create a new `GoogleOAuth2` object and pass it to the constructor:
 
 
 ```
