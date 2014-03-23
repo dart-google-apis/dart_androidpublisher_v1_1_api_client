@@ -11,3 +11,4 @@ export 'package:google_androidpublisher_v1_1_api/src/client_base.dart' show APIR
 part 'src/client/client.dart';
 part 'src/client/schemas.dart';
 part 'src/client/resources.dart';
+part 'src/client/utils.dart';
