@@ -4,8 +4,8 @@ part of androidpublisher_v1_1_api;
 class InappPurchase {
 
   /** The consumption state of the inapp product. Possible values are:  
-- - Consumed 
-- - Yet to be consumed */
+- Yet to be consumed 
+- Consumed */
   core.int consumptionState;
 
   /** A developer-specified string that contains supplemental information about an order. */
@@ -15,8 +15,8 @@ class InappPurchase {
   core.String kind;
 
   /** The purchase state of the order. Possible values are:  
-- - Purchased 
-- - Cancelled */
+- Purchased 
+- Cancelled */
   core.int purchaseState;
 
   /** The time the product was purchased, in milliseconds since the epoch (Jan 1, 1970). */

@@ -14,7 +14,7 @@ Adding dependency to pubspec.yaml
 
 ```
   dependencies:
-    google_androidpublisher_v1_1_api: '>=0.4.5'
+    google_androidpublisher_v1_1_api: '>=0.4.6'
 ```
 
 For web applications:

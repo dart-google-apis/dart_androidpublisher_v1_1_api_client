@@ -8,6 +8,9 @@ import "package:google_androidpublisher_v1_1_api/androidpublisher_v1_1_api_clien
 /** Lets Android application developers access their Google Play accounts. */
 class Androidpublisher extends Client with BrowserClient {
 
+  /** OAuth Scope2: View and manage your Google Play Android Developer account */
+  static const String ANDROIDPUBLISHER_SCOPE = "https://www.googleapis.com/auth/androidpublisher";
+
   final oauth.OAuth2 auth;
 
   Androidpublisher([oauth.OAuth2 this.auth]);
