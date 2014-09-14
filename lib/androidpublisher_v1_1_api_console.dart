@@ -7,6 +7,7 @@ import 'package:google_androidpublisher_v1_1_api/src/console_client.dart';
 import "package:google_androidpublisher_v1_1_api/androidpublisher_v1_1_api_client.dart";
 
 /** Lets Android application developers access their Google Play accounts. */
+@deprecated
 class Androidpublisher extends Client with ConsoleClient {
 
   /** OAuth Scope2: View and manage your Google Play Android Developer account */

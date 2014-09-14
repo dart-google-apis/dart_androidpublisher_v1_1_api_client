@@ -1,6 +1,6 @@
 part of androidpublisher_v1_1_api;
 
-/** A Purchase resource indicates the status of a user's subscription purchase. */
+/** An InappPurchase resource indicates the status of a user's inapp product purchase. */
 class InappPurchase {
 
   /** The consumption state of the inapp product. Possible values are:  
@@ -11,7 +11,7 @@ class InappPurchase {
   /** A developer-specified string that contains supplemental information about an order. */
   core.String developerPayload;
 
-  /** This kind represents a inappPurchase object in the androidpublisher service. */
+  /** This kind represents an inappPurchase object in the androidpublisher service. */
   core.String kind;
 
   /** The purchase state of the order. Possible values are:  
@@ -69,7 +69,7 @@ class InappPurchase {
 
 }
 
-/** A Purchase resource indicates the status of a user's subscription purchase. */
+/** A SubscriptionPurchase resource indicates the status of a user's subscription purchase. */
 class SubscriptionPurchase {
 
   /** Whether the subscription will automatically be renewed when it reaches its current expiry time. */
